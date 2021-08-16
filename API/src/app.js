@@ -6,8 +6,7 @@ import categoriaRoutes from './routes/categoria.routes';
 import servicioRoutes from './routes/servicio.routes';
 
 const app = express() ;
-fdfdsfdsfsfs
-
+const a = "peru";
 //settings
 app.set('port', config.port);
 
