@@ -1,0 +1,32 @@
+@api = http://localhost:2000/servicio
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+"Servicio": "PRUEBA - ADMINISTRATIVOS",
+"ServicioDependenciaID": 1,
+"SinCronograma": 0,
+"PermisoGuardia": 0
+}
+
+###
+GET {{api}}/167
+
+###
+DELETE  {{api}}/168
+
+###
+PUT {{api}}/167
+Content-Type: application/json
+
+{
+"Servicio": "ADMISION - ADMINISTRATIVOS",
+"ServicioDependenciaID": 1,
+"SinCronograma": 0,
+"PermisoGuardia": 0
+}
+

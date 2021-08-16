@@ -1,0 +1,27 @@
+@api = http://localhost:2000/categoria
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "Categoria": "T",
+    "Descripcion":"prueba"
+}
+
+###
+GET {{api}}/A
+
+###
+DELETE  {{api}}/T
+
+###
+PUT {{api}}/T
+Content-Type: application/json
+
+{
+    "Descripcion":"prueba"
+}
+
