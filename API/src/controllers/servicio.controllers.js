@@ -36,7 +36,7 @@ export const createNewServicio = async (req, res) => {
 
 export const getServicioById = async (req, res) => {
     try {
-        const { id } = req.params.id;
+        const id = req.params.id;
 
         const pool = await getConnection();
     

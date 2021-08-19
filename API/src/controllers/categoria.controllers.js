@@ -34,7 +34,7 @@ export const createNewCategoria = async (req, res) => {
 
 export const getCategoriaById = async (req, res) => {
     try {
-        const { id } = req.params.id;
+        const id = req.params.id;
 
         const pool = await getConnection();
     
