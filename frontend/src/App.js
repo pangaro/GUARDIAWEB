@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
-<h1>prueba react</h1>
+    <div className="App">
+      dd
+    </div>
   );
 }
 
